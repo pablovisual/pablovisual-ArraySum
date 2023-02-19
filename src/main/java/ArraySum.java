@@ -9,9 +9,8 @@ public class ArraySum {
     public int sum(int[] arr){
         int sum = 0;
 
-        for (int index = 0; index < arr.length; ++index) {
+        for (int index = 0; index < arr.length; ++index)
             sum += arr[index];
-        }
 
         return sum;
     }
